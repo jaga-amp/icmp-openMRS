@@ -1,4 +1,0 @@
--------------------------------------------------------------------------------
-Test set: org.openmrs.api.OrderServiceTest
--------------------------------------------------------------------------------
-Tests run: 174, Failures: 0, Errors: 0, Skipped: 3, Time elapsed: 3.318 sec - in org.openmrs.api.OrderServiceTest
