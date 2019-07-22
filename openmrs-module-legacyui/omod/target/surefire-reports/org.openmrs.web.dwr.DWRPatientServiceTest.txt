@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: org.openmrs.web.dwr.DWRPatientServiceTest
+-------------------------------------------------------------------------------
+Tests run: 7, Failures: 0, Errors: 0, Skipped: 2, Time elapsed: 0.409 s - in org.openmrs.web.dwr.DWRPatientServiceTest
