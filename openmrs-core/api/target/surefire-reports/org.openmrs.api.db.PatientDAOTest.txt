@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: org.openmrs.api.db.PatientDAOTest
+-------------------------------------------------------------------------------
+Tests run: 157, Failures: 0, Errors: 0, Skipped: 1, Time elapsed: 32.946 sec - in org.openmrs.api.db.PatientDAOTest

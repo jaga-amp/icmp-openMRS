@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: org.openmrs.module.ModuleFileParserUnitTest
+-------------------------------------------------------------------------------
+Tests run: 73, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.619 sec - in org.openmrs.module.ModuleFileParserUnitTest
