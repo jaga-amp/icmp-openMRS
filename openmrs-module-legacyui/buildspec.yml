@@ -1,7 +1,9 @@
 version: 0.1 
    
 phases:     
-  install: 
+  install:
+    runtime-versions:
+      java: openjdk8
     commands: 
       - echo Nothing to do in the install phase...
   pre_build: 
@@ -10,7 +12,7 @@ phases:
   build: 
     commands: 
       - echo Build started on `date` 
-      - mvn clean install -Dmaven.test.skip=true
+      - cd openmrs-module-legacyui/ &&mvn clean install -Dmaven.test.skip=true
   post_build: 
     commands: 
       - echo Build completed on `date` 
