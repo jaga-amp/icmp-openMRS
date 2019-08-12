@@ -3,9 +3,16 @@ os: linux
 files:  
    - source: openmrs-core/webapp/target/openmrs.war  
      destination: /usr/local/apache-tomcat-7.0.96/webapps
-files: 
    - source: openmrs-module-legacyui/omod/target/legacyui-1.6.0-SNAPSHOT.omod 
-     destination: /root/.OpenMRS/modules/        
+     destination: /root/.OpenMRS/modules/
+permissions: 
+   - object: /usr/local/apache-tomcat-7.0.96/webapps 
+     pattern: "**" 
+     owner: tomcat 
+     group: tomcat 
+     mode: 755 
+     type: 
+       - file     
 hooks:  
    BeforeInstall:  
     - location: scripts/init.sh  
