@@ -1,0 +1,17 @@
+version: 0.0  
+os: linux  
+files:  
+   - source: openmrs-core/webapp/target/openmrs.war  
+     destination: /usr/local/apache-tomcat-7.0.96/webapps
+files: 
+   - source: openmrs-module-legacyui/omod/target/legacyui-1.6.0-SNAPSHOT.omod 
+     destination: /root/.OpenMRS/modules/        
+hooks:  
+   BeforeInstall:  
+    - location: init.sh  
+      runas: root 
+   AfterInstall: 
+    - location: restart.sh 
+      runas: root      
+  
+      
