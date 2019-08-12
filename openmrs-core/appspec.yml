@@ -1,0 +1,9 @@
+version: 0.0 
+os: linux 
+files: 
+   - source: webapp/target/openmrs.war 
+     destination: /usr/local/apache-tomcat-7.0.96/webapps 
+hooks: 
+   BeforeInstall: 
+    - location: init.sh 
+      runas: root
