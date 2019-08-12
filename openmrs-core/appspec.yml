@@ -7,3 +7,6 @@ hooks:
    BeforeInstall: 
     - location: init.sh 
       runas: root
+   AfterInstall:
+    - location: load.sh
+      runas: root
