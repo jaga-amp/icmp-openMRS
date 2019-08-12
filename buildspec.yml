@@ -21,7 +21,7 @@ artifacts:
   files: 
     - 'openmrs-core/webapp/target/openmrs.war'
     - 'openmrs-module-legacyui/omod/target/legacyui-1.6.0-SNAPSHOT.omod'     
-    - 'init.sh' 
+    - 'scripts/init.sh' 
     - 'appspec.yml'
-    - 'restart.sh'
+    - 'scripts/restart.sh'
  
