@@ -1,0 +1,9 @@
+version: 0.0 
+os: linux 
+files: 
+   - source: omod/target/legacyui-1.6.0-SNAPSHOT.omod 
+     destination: /root/.OpenMRS/modules/ 
+hooks: 
+   AfterInstall: 
+    - location: restart.sh 
+      runas: root
