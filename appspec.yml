@@ -8,10 +8,10 @@ files:
      destination: /root/.OpenMRS/modules/        
 hooks:  
    BeforeInstall:  
-    - location: init.sh  
+    - location: scripts/init.sh  
       runas: root 
    AfterInstall: 
-    - location: restart.sh 
+    - location: scripts/restart.sh 
       runas: root      
   
       
