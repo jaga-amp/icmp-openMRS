@@ -13,7 +13,7 @@ phases:
     commands: 
       - echo Build started on `date` 
       - cd openmrs-core/ && mvn clean install -Dmaven.test.skip=true && cd -
-      - cd openmrs-module-legacyui/ && mvn clean install -Dmaven.test.skip=true
+      - cd openmrs-module-legacyui/ && mvn clean install -Dmaven.test.skip=true && cd -
   post_build: 
     commands: 
       - echo Build completed on `date` 
