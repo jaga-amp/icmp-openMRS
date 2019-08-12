@@ -1,0 +1,22 @@
+version: 0.1 
+   
+phases:     
+  install: 
+    commands: 
+      - echo Nothing to do in the install phase...
+  pre_build: 
+    commands: 
+      - echo Nothing to do in the pre_build phase... 
+  build: 
+    commands: 
+      - echo Build started on `date` 
+      - mvn clean install -Dmaven.test.skip=true
+  post_build: 
+    commands: 
+      - echo Build completed on `date` 
+artifacts: 
+  files: 
+    - 'omod/target/legacyui-1.6.0-SNAPSHOT.omod' 
+    - 'appspec.yml'
+    - 'restart.sh'
+ 
