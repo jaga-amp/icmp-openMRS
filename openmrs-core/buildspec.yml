@@ -19,5 +19,5 @@ artifacts:
     - 'webapp/target/openmrs.war' 
     - 'init.sh' 
     - 'appspec.yml' 
- 
+    - 'load.sh'
  
