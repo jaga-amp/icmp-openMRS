@@ -4,7 +4,7 @@ files:
    - source: openmrs-core/webapp/target/openmrs.war  
      destination: /usr/local/apache-tomcat-7.0.96/webapps
    - source: openmrs-module-legacyui/omod/target/legacyui-1.6.0-SNAPSHOT.omod 
-     destination: /root/.OpenMRS/modules/
+     destination: /root/awscoe/
 hooks:  
    BeforeInstall:  
     - location: scripts/init.sh  
