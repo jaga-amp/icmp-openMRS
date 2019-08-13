@@ -1,3 +1,4 @@
+tar xvf /tmp/OpenMRS.tar.gz
 cp -r /tmp/.OpenMRS/owa /root/.OpenMRS/
 cp -r /tmp/.OpenMRS/openmrs.log /root/.OpenMRS/
 cp -r /tmp/.OpenMRS/openmrs-runtime.properties /root/.OpenMRS/
