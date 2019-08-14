@@ -1,0 +1,27 @@
+********** START OF DATABASE UPDATE LOGS AS AT Sat Jul 20 09:07:19 UTC 2019 **********
+
+WARNINGS:
+
+ConceptName with id: 9 (Verdadero) has a locale (es) that isn't listed among the allowed ones by the system admin
+ConceptName with id: 10 (Sí) has a locale (es) that isn't listed among the allowed ones by the system admin
+ConceptName with id: 1 (Verdadeiro) has a locale (pt) that isn't listed among the allowed ones by the system admin
+ConceptName with id: 2 (Sim) has a locale (pt) that isn't listed among the allowed ones by the system admin
+ConceptName with id: 7 (Vrai) has a locale (fr) that isn't listed among the allowed ones by the system admin
+ConceptName with id: 8 (Oui) has a locale (fr) that isn't listed among the allowed ones by the system admin
+ConceptName with id: 5 (Vero) has a locale (it) that isn't listed among the allowed ones by the system admin
+ConceptName with id: 6 (Sì) has a locale (it) that isn't listed among the allowed ones by the system admin
+ConceptName with id: 19 (Falso) has a locale (es) that isn't listed among the allowed ones by the system admin
+ConceptName with id: 20 (No) has a locale (es) that isn't listed among the allowed ones by the system admin
+ConceptName with id: 11 (Falso) has a locale (pt) that isn't listed among the allowed ones by the system admin
+ConceptName with id: 12 (Não) has a locale (pt) that isn't listed among the allowed ones by the system admin
+ConceptName with id: 17 (Faux) has a locale (fr) that isn't listed among the allowed ones by the system admin
+ConceptName with id: 18 (Non) has a locale (fr) that isn't listed among the allowed ones by the system admin
+ConceptName with id: 15 (Falso) has a locale (it) that isn't listed among the allowed ones by the system admin
+ConceptName with id: 16 (No) has a locale (it) that isn't listed among the allowed ones by the system admin
+
+NOTIFICATIONS:
+
+Number of Updated ConceptNames: 0
+
+*********** END OF DATABASE UPDATE LOGS AS AT Sat Jul 20 09:07:19 UTC 2019 ***********
+
