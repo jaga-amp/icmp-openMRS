@@ -19,6 +19,10 @@
 			<td><input type="password" name="pw" value="" id="password" size="25" /></td>
 		</tr>
 		<tr>
+                   	 <td>City:                                      </td>
+                   	 <td><input type="text" name="City" size="25" /></td>
+		</tr>
+		<tr>
 			<td></td>
 			<td><input type="submit" value="<openmrs:message code="auth.login"/>" /></td>
 		</tr>
