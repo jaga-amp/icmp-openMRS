@@ -27,5 +27,5 @@ org.openmrs.web.filter.startuperror.StartupErrorFilter.java
 and the velocity *.vm scripts associated with them to edit the initialsetup ui.
  
 --> 
-<p> Changed App </p>
+<p> Changed App 1 </p>
 </body>
